@@ -1,5 +1,47 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
 .myBox {
     background-color: yellow;
     min-height: 200px;
     padding: 20px;
+}
+
+h1 {
+    color: red;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    h1 {
+        color: aquamarine
+    }        
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    h1 {
+        color: goldenrod;
+    }        
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    h1 {
+        color: black;
+    }        
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    h1 {
+        color: chartreuse;
+    }        
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    h1 {
+        color: darkmagenta
+    }        
 }
