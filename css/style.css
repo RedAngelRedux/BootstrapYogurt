@@ -35,3 +35,8 @@ h1 {
 .mt-n1 {
     margin-top: -1.75rem !important;
 }
+
+.btn-primary, .btn-primary:hover {
+    background-color: #00BBC9;
+    border-color: #00BBC9;
+}
