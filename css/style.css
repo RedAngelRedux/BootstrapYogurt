@@ -2,11 +2,6 @@
     background-color: rgb(31, 6, 6, 0);
 }
 
-.my-btn-primary {
-    background-color: #535A66;
-    color: white
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -26,3 +21,10 @@ h1 {
     font-size: 2.2rem;
 }
 
+.btn-outline-light {
+    border-color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.253);
+}
